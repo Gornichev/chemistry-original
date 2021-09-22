@@ -3,6 +3,8 @@ body {
     background-color: #fff;
     font-size: 16px;
     font-weight: normal;
+    position: relative;
+    min-height: 100vh;
 }
 .container {
     width: 1266px;
@@ -16,6 +18,7 @@ body {
 .header_right {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .header {
     padding-top: 38px;
