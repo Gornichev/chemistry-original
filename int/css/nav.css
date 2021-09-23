@@ -1,4 +1,4 @@
-#btn-menu {
+#btn-show-menu {
     padding: 5px 7px;
     font-size: 14px;
     line-height: 1.2;
@@ -8,18 +8,19 @@
     -moz-transition: all .12s linear;
     -o-transition: all .12s linear;
     transition: all .12s linear;
+    cursor: pointer;
 }
 
-#btn-menu.hide {
+#btn-show-menu.hide {
     opacity: 0;
 }
 
-.menu-show {
+.overlay {
     overflow: hidden;
     z-index: 100;
 }
 
-.menu-show:before {
+.overlay:before {
     content: "";
     position: fixed;
     top: 0;
@@ -35,11 +36,11 @@
 }
 
 #menu {
-    padding: 80px 30px 30px;
-    width: 525px;
+    padding: 87px 30px 30px;
+    width: 320px;
     height: 100%;
     background-color: #fff;
-    transform: translateX(525px);
+    transform: translateX(320px);
     position: absolute;
     z-index: 102;
     top: 0;
@@ -55,15 +56,17 @@
     transform: translateX(0);
 }
 
-#menu #hide-menu {
+#menu #btn-hide-menu {
     position: absolute;
     top: 44px;
     left: 30px;
     padding: 5px 7px;
     font-size: 14px;
     line-height: 1.2;
-    border: 1px solid #6fa666;
-    color: #6fa666;
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
     border-radius: 5px;
     -webkit-transition: all .12s linear;
     -moz-transition: all .12s linear;
