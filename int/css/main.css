@@ -11,19 +11,99 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.container-sm {
+    width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*-----header start------*/
 .section_background {
     background-color: #D4EFF8;
 }
 .header_right {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 .header {
-    padding-top: 38px;
+    padding-top: 16px;
+    padding-bottom: 0;
 }
 .logo {
     display: flex;
 }
+.logo .logo-text {
+    max-width: 230px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.logo .header_logo {
+    width: 79px;
+    height: auto;
+    margin-right: 30px;
+}
+.header .header_right .header_catalog {
+    margin-right: 30px;
+    padding: 8px 16px  8px  36px;
+    background: #F6A219;
+    color: #FFFFFF;
+    line-height: 19px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.header .header_right .header_catalog::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../img/shape.svg");
+
+}
+.header .header_right .header_order {
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #0036B0;
+}
+.header .header_right a {
+    margin-right: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #343344;
+    font-size: 16px;
+    line-height: 22px;
+}
+.header .header_right .header_phone {
+    margin-right: 8px;
+}
 /*-----header finish------*/
+/*---Intro Start----*/
+.section_intro {
+    padding-top: 121px;
+}
+.section_intro .intro_left p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.section_intro .intro_left .intro-btn {
+    margin-top: 16px;
+    background: #0036b0;
+    color: #FFFFFF;
+    line-height: 19px;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 14px 24px 14px 24px;
+}
+.section_intro .intro_img {
+    margin-top: -100px;
+}
+.title_intro {
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 50px;
+}
+
+/*---Intro Finish----*/
