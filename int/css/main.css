@@ -5,20 +5,17 @@ body {
     font-weight: normal;
     position: relative;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 .container {
-    width: 1266px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1266px;
 }
 .container-sm {
-    width: 1060px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1060px;
 }
 /*-----header start------*/
 .section_background {
-    background-color: #D4EFF8;
+    background: #D4EFF8 url("../img/back.jpg")no-repeat center /cover;
 }
 .header_right {
     display: flex;
@@ -30,34 +27,25 @@ body {
 }
 .logo {
     display: flex;
+    align-items: center;
 }
 .logo .logo-text {
     max-width: 230px;
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
+    display: block;
 }
 .logo .header_logo {
     width: 79px;
     height: auto;
     margin-right: 30px;
 }
-.header .header_right .header_catalog {
+.header .header_right .btn-catalog {
     margin-right: 30px;
-    padding: 8px 16px  8px  36px;
-    background: #F6A219;
-    color: #FFFFFF;
-    line-height: 19px;
-    font-weight: 800;
-    font-size: 14px;
 }
-.header .header_right .header_catalog::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: url("../img/shape.svg");
-
+.header .header_right .icon {
+    margin-right: 11px ;
 }
 .header .header_right .header_order {
     margin-right: 40px;
@@ -81,21 +69,13 @@ body {
 /*---Intro Start----*/
 .section_intro {
     padding-top: 121px;
+    margin-bottom: 80px;
 }
-.section_intro .intro_left p {
-    margin-top: 16px;
+.section_intro .intro_left .intro_text {
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-}
-.section_intro .intro_left .intro-btn {
-    margin-top: 16px;
-    background: #0036b0;
-    color: #FFFFFF;
-    line-height: 19px;
-    font-weight: 800;
-    font-size: 14px;
-    padding: 14px 24px 14px 24px;
+    margin-bottom: 40px;
 }
 .section_intro .intro_img {
     margin-top: -100px;
@@ -104,6 +84,30 @@ body {
     font-weight: 800;
     font-size: 39px;
     line-height: 50px;
+    margin-bottom: 16px;
+}
+/*---Intro Finish----*/
+/*<!--Section item Start-->*/
+.item_mini {
+    background: #FFF5E4;
+    padding: 48px 110px;
+}
+.section_item  .item_mini .icon_mini {
+    font-size: 30px;
+    color: #F6A219;
+    display: inline-block;
+    margin-right: 20px;
+}
+.section_item .item-flex {
+    display: flex;
+}
+.section_item .item_mini .text_mini {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #545365;
+    max-width: 170px;
+    /*margin-left: 20px;*/
 }
 
-/*---Intro Finish----*/
+/*<!--Section item Finish-->*/
