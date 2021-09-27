@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+<!--    Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!--    Swiper-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
@@ -64,169 +67,251 @@
         </div>
     </section>
 </section>
+<div class="background">
     <!--Section item Start-->
-<section class="section_item">
-    <div class="container">
-        <div class="item_mini">
+    <section class="section_item">
+        <div class="container">
+            <div class="item_mini">
+                <div class="row align-items-center">
+                    <div class="col-3 ">
+                        <div class="item-flex">
+                            <i class="icon icon-dostup icon_mini"></i>
+                            <span class="text_mini">Доступные цены при высоком качестве</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item-flex">
+                            <i class="icon icon-dost icon_mini"></i>
+                            <span class="text_mini">Бесплатная доставка по России</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item-flex">
+                            <i class="icon icon-cert icon_mini"></i>
+                            <span class="text_mini">Все продукция сертифицирована</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item-flex">
+                            <i class="icon icon-skidki icon_mini"></i>
+                            <span class="text_mini">Гибкая система скидок</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="title-item">Каталог</h2>
+            <!------- Item--------->
             <div class="row align-items-center">
-                <div class="col-3 item-flex">
-                    <i class="icon icon-dostup icon_mini"></i>
-                    <span class="text_mini">Доступные цены при высоком качестве</span>
-                </div>
-                <div class="col-3 item-flex">
-                    <i class="icon icon-dost icon_mini"></i>
-                    <span class="text_mini">Бесплатная доставка по России</span>
-                </div>
-                <div class="col-3 item-flex">
-                    <i class="icon icon-cert icon_mini"></i>
-                    <span class="text_mini">Все продукция сертифицирована</span>
-                </div>
-                <div class="col-3 item-flex">
-                    <i class="icon icon-skidki icon_mini"></i>
-                    <span class="text_mini">Гибкая система скидок</span>
-                </div>
-            </div>
-        </div>
-        <h2 class="title-item">Каталог</h2>
-<!------- Item--------->
-        <div class="row align-items-center">
-            <div class="col-3">
-                <div class="item">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item1.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                    <h4 class="item_title">Перчатки одноразовые (нитрил, винил, латекс)</h4>
+                <div class="col-3">
+                    <div class="item">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item1.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Перчатки одноразовые (нитрил, винил, латекс)</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="item">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item2.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Одноразовые халаты Комбинезоны «Каспер»</h4>
+                <div class="col-3">
+                    <div class="item">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item2.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Одноразовые халаты Комбинезоны «Каспер»</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="item">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item4.png" alt="">
+                <div class="col-3">
+                    <div class="item">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item4.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Защитные комбинезоны из мембраны типа «Taywek»</h4>
+                        </div>
                     </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Защитные комбинезоны из мембраны типа «Taywek»</h4>
+                </div>
+                <div class="col-3">
+                    <div class="item">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item3.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Защита рук (перчатки, рукавицы и так далее)</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="item">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item3.png" alt="">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item13.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Защита органов зрения</h4>
+                        </div>
                     </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Защита рук (перчатки, рукавицы и так далее)</h4>
+                </div>
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item6.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Защита органов слуха</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item7.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Специальная одежда</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item8.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Специальная обувь</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item13.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Защита органов зрения</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item6.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Защита органов слуха</h4>
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item9.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Средства дезинфекции, антисептики</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item7.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Специальная одежда</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item8.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Специальная обувь</h4>
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item10.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Защита головы</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item9.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Средства дезинфекции, антисептики</h4>
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item11.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Защита органов дыхания</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item10.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Защита головы</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item11.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Защита органов дыхания</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="item_second">
-                    <div class="item_body">
-                        <img class="item_img" src="int/img/items/item12.png" alt="">
-                    </div>
-                    <div class="item_footer">
-                        <h4 class="item_title">Хозтовары, инвентарь, мебель</h4>
+                <div class="col-3">
+                    <div class="item_second">
+                        <div class="item_body">
+                            <img class="item_img" src="int/img/items/item12.png" alt="">
+                        </div>
+                        <div class="item_footer">
+                            <h4 class="item_title">Хозтовары, инвентарь, мебель</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--!!!Section item Finish!!!-->
-<!--!!!section_carousel start!!!-->
-<section class="section_carousel">
-    <div class="container">
-
-    </div>
-</section>
-<!--section_carousel Finish-->
+    </section>
+    <!--!!!Section item Finish!!!-->
+    <!--!!!section_carousel start!!!-->
+    <section class="section_carousel">
+        <div class="container">
+            <h2 class="title-item">Вся наша продукция сертифицирована</h2>
+            <!-- Swiper -->
+            <div class="wrapper-swiper-cert">
+                <div class="swiper swiper-cert">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert1.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert2.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert3.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert4.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert5.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section_carousel Finish-->
+    <!--Section mini_sale Start-->
+    <section class="section_mini_sale">
+        <div class="container">
+            <div class="mini_sale_wrapper">
+                <div class="row">
+                    <div class="col">
+                        <div class="mini_sale_left">
+                            <h3 class="title_sale">Хотите заказать продукцию или  узнать про скидки и акции?</h3>
+                            <span class="text_sale">Оставьте заявку и мы оперативно перезвоним вам</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="mini_sale_right">
+                            <button type="button" class="btn btn-lg">Получить коммерческое предложение</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!--Section mini_sale Finish-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+<!--Swiper-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!--Swiper-->
 <script src="int/js/common.js" type="text/javascript"></script>
 </body>
 </html>

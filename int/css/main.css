@@ -13,6 +13,9 @@ body {
 .container-sm {
     max-width: 1060px;
 }
+.background {
+    background:#E5E5E5 ;
+}
 /*-----header start------*/
 .section_background-top {
     background: #D4EFF8 url("../img/back.jpg")no-repeat center /cover;
@@ -107,6 +110,7 @@ body {
 }
 .section_item .item-flex {
     display: flex;
+   align-items: center;
 }
 .section_item .item_mini .text_mini {
     font-weight: 500;
@@ -114,6 +118,7 @@ body {
     line-height: 19px;
     color: #545365;
     max-width: 170px;
+    display: block;
 }
 .title-item {
     text-align: center;
@@ -126,6 +131,7 @@ body {
     padding-right: 24px;
     padding-left: 24px;
     padding-bottom: 32px;
+    margin-bottom: 80px;
 }
 .section_item .item_second {
     padding-right: 24px;
@@ -144,3 +150,35 @@ body {
     margin: 0 auto;
 }
 /*<!--Section item Finish-->*/
+/*<!--Section mini_sale Start-->*/
+.section_mini_sale {
+    background: #E5E5E5;
+}
+.mini_sale_wrapper {
+    background: url("../img/sale/back_sale.png")no-repeat center / cover;
+}
+.section_mini_sale .mini_sale_right  {
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-right: 109px;
+    margin-left: 86px;
+    text-align: center;
+}
+.section_mini_sale .mini_sale_left {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 110px;
+}
+.section_mini_sale .mini_sale_left .title_sale {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 28px;
+    color: #FFFFFF;
+}
+.section_mini_sale .mini_sale_left .text_sale {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+/*<!--Section mini_sale Finish-->*/

@@ -14,3 +14,12 @@ hideMenu.onclick = function() {
     body.classList.remove("overlay");
     menu.classList.remove("show");
 }
+
+var swiperCert = new Swiper(".swiper-cert", {
+    slidesPerView: 5,
+    spaceBetween: 40,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
