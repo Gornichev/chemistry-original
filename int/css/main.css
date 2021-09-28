@@ -13,9 +13,6 @@ body {
 .container-sm {
     max-width: 1060px;
 }
-.background {
-    background:#E5E5E5 ;
-}
 /*-----header start------*/
 .section_background-top {
     background: #D4EFF8 url("../img/back.jpg")no-repeat center /cover;
@@ -94,7 +91,6 @@ body {
 /*---Intro Finish----*/
 /*<!--Section item Start-->*/
 .section_item {
-    background:#E5E5E5 ;
     padding-top: 80px;
 }
 .item_mini {
@@ -152,7 +148,7 @@ body {
 /*<!--Section item Finish-->*/
 /*<!--Section mini_sale Start-->*/
 .section_mini_sale {
-    background: #E5E5E5;
+    margin-bottom: 80px;
 }
 .mini_sale_wrapper {
     background: url("../img/sale/back_sale.png")no-repeat center / cover;
@@ -182,3 +178,89 @@ body {
     font-size: 16px;
 }
 /*<!--Section mini_sale Finish-->*/
+/*<!--    section_client start-->*/
+.row-padding-20 {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+}
+.row-padding-20 > * {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.section_client .client_item {
+    margin-bottom: 40px;
+}
+.section_client .client_normalize .client_item_second {
+
+}
+.title_client {
+    padding-right: 102px;
+}
+/*<!--    section_client Finish-->*/
+/*<!--section_delivery Start-->*/
+.section_delivery .delivery {
+    padding: 48px 64px 84px 48px;
+    display: flex;
+    flex-direction: column;
+    background: #FFF5E4;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 80px;
+}
+.section_delivery .title_delivery {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 45px;
+}
+.section_delivery .delivery_options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #343344;
+    z-index:102;
+}
+.delivery_options li  {
+    position: relative;
+    padding-left: 48px;
+}
+.delivery_options li+li  {
+    margin-top: 20px;
+}
+.section_delivery .delivery_options  .delivery_text {
+    margin-top: 30px;
+}
+.delivery_options li .icon {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background: #f6a219;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
+.section_delivery .delivery .icon-dostupnie-ceni {
+    font-size: 107px;
+    position: absolute;
+    right: 45px;
+    top: 60px;
+    z-index: 100;
+    color: #FFFFFF;
+}
+.section_delivery .delivery .icon-dostavka {
+    font-size: 107px;
+    position: absolute;
+    right: 45px;
+    top: 60px;
+    z-index: 100;
+    color: #FFFFFF;
+}
+/*<!--section_delivery Finish-->*/

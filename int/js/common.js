@@ -23,3 +23,10 @@ var swiperCert = new Swiper(".swiper-cert", {
         prevEl: ".swiper-button-prev",
     },
 });
+// Section_feedback Start
+    var swiperFeedback = new Swiper(".swiper_feedback", {
+    navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+},
+});
