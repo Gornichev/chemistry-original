@@ -15,7 +15,7 @@ hideMenu.onclick = function() {
     menu.classList.remove("show");
 }
 
-var swiperCert = new Swiper(".swiper-cert", {
+const swiperCert = new Swiper(".swiper-cert", {
     slidesPerView: 5,
     spaceBetween: 40,
     navigation: {
@@ -24,9 +24,10 @@ var swiperCert = new Swiper(".swiper-cert", {
     },
 });
 // Section_feedback Start
-    var swiperFeedback = new Swiper(".swiper_feedback", {
+const feedback = new Swiper(".swiper_feedback", {
+    slidesPerView: 1,
     navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-},
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });

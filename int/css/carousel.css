@@ -3,6 +3,11 @@
     padding-top: 80px;
     margin-bottom: 80px;
 }
+.wrapper-swiper-cert {
+    position: relative;
+    padding-left: 84px;
+    padding-right: 84px;
+}
 .wrapper-swiper-cert .swiper {
     width: 100%;
     height: 100%;
@@ -40,22 +45,19 @@
     border-radius: 50%;
     background-color: #ccc;
     position: absolute;
+    top: 100px;
 }
-
 .wrapper-swiper-cert .swiper-button-next {
-    right: -50px;
+    right: 0;
 }
 .wrapper-swiper-cert .swiper-button-prev {
-
+    left: 0;
 }
 /*Carousel Feedback Start*/
 .section_feedback {
     background: #D9EEF7;
     padding-top: 80px;
     padding-bottom: 80px;
-}
-.section_feedback .feedback_full {
-    background: #FFFFFF;
 }
 .section_feedback .feedback_full {
     padding: 48px 48px 48px 48px;
@@ -93,4 +95,14 @@
     margin-left: 16px;
 }
 /*Carousel Feedback Finish*/
+/*section_feedback_carousel start*/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.section_feedback_carousel {
+    background: #FFFFFF;
+}
+/*section_feedback_carousel finish*/
+
 
