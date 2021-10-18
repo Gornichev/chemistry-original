@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?fo6v1m');
-  src:  url('fonts/icomoon.eot?fo6v1m#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?fo6v1m') format('truetype'),
-    url('fonts/icomoon.woff?fo6v1m') format('woff'),
-    url('fonts/icomoon.svg?fo6v1m#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?yz95bk');
+  src:  url('fonts/icomoon.eot?yz95bk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yz95bk') format('truetype'),
+    url('fonts/icomoon.woff?yz95bk') format('woff'),
+    url('fonts/icomoon.svg?yz95bk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-close:before {
+  content: "\e90b";
+}
+.icon-shape_left:before {
+  content: "\e908";
+}
+.icon-shape_left1:before {
+  content: "\e909";
+}
 .icon-dostavka:before {
   content: "\e905";
 }
@@ -45,6 +54,9 @@
 }
 .icon-skidki:before {
   content: "\e903";
+}
+.icon-burger:before {
+  content: "\e90a";
 }
 .icon-download:before {
   content: "\e907";

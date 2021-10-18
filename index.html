@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -17,7 +17,7 @@
 </head>
 <body>
 <div id="menu">
-    <span id="btn-hide-menu">menu hide</span>
+    <span id="btn-hide-menu"><i class="icon icon-close"></i> </span>
     <ul class="nav">
         <li><a href="#">Menu1</a></li>
         <li><a href="#">Menu2</a></li>
@@ -41,10 +41,10 @@
                         <div class="header_icon">
                             <img class="header_phone" src="int/img/phone.svg" alt="phone">
                         </div>
-                        <a href="tel:+7986543210">+7 (987) 654-32-10</a>
-                        <a class="header_order" href="#">Заказать звонок</a>
-                        <button type="button" class="btn btn-sm btn-catalog"><i class="icon icon-download"></i>Скачать каталог</button>
-                        <span id="btn-show-menu">menu show</span>
+                        <a class="header_tel" href="tel:+7986543210">+7 (987) 654-32-10</a>
+                        <span class="header_order" data-bs-toggle="modal" data-bs-target="#callbackModal">Заказать звонок</span>
+                        <a href="int/img/catalog/catalog.pdf" class="btn btn-sm btn-catalog" target="_blank"><i class="icon icon-download"></i>Скачать каталог</a>
+                        <i class="icon icon-burger" id="btn-show-menu"></i>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <div class="intro_left">
                         <h1 class="title_intro">Изготавливаем и поставляем СИЗ широкого назначения и любых видов</h1>
                         <p class="intro_text">Для производств, промышленности, медицинских, образовательных, государственных или иных учреждений, также для бытовых нужд. В том числе СИЗ от COVID-19</p>
-                        <button type="button" class="btn btn-primary">Получить коммерческое предложение</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#offerModal">Получить коммерческое предложение</button>
                     </div>
                 </div>
                 <div class="col-6">
@@ -272,10 +272,34 @@
                             <span class="title">
                         Сертификат соответствия МСТRUОС01Н006461</span>
                         </div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert2.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert3.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert4.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-body">
+                                <img class="img-fluid" src="int/img/slide/cert/cert5.png" alt="">
+                            </div>
+                            <span class="title">
+                        Сертификат соответствия МСТRUОС01Н006461</span>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-button swiper-button-next"></div>
@@ -452,16 +476,117 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">
+                        <div class="feedback_full">
+                            <h3 class="title_feedback">Отзывы</h3>
+                            <div class="row">
+                                <div class="col-4 h-100">
+                                    <a class="feedback_logo" href="#"><img src="int/img/feedback_logo.png" alt=""></a>
+                                </div>
+                                <div class="col h-100">
+                                    <h5 class="feedback_mini_title">АйТи. Бизнес решения</h5>
+                                    <span class="feedback_mini_text">Генеральный директор А.Е. Лапшин</span>
+                                    <p class="feedback_text">«Порадовала быстрая доставка, ожидания оправдались на 100%» Для себя мы отметили профессионализм команды, оперативное включение в процесс, реализацию интересных нестандартных решений и полную отдачу в проекте. Желаю компании успехов в автоматизации бизнес-процессов и выражаю надежду на продолжение сотрудничества.</p>
+                                    <div class="feedback_blank">
+                                        <img class="feedback_foto" src="int/img/feedback_blanc.png" alt="">
+                                        <a class="feedback_link" href="#">Смотреть отзыв на бланке компании</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="feedback_full">
+                            <h3 class="title_feedback">Отзывы</h3>
+                            <div class="row">
+                                <div class="col-4 h-100">
+                                    <a class="feedback_logo" href="#"><img src="int/img/feedback_logo.png" alt=""></a>
+                                </div>
+                                <div class="col h-100">
+                                    <h5 class="feedback_mini_title">АйТи. Бизнес решения</h5>
+                                    <span class="feedback_mini_text">Генеральный директор А.Е. Лапшин</span>
+                                    <p class="feedback_text">«Порадовала быстрая доставка, ожидания оправдались на 100%» Для себя мы отметили профессионализм команды, оперативное включение в процесс, реализацию интересных нестандартных решений и полную отдачу в проекте. Желаю компании успехов в автоматизации бизнес-процессов и выражаю надежду на продолжение сотрудничества.</p>
+                                    <div class="feedback_blank">
+                                        <img class="feedback_foto" src="int/img/feedback_blanc.png" alt="">
+                                        <a class="feedback_link" href="#">Смотреть отзыв на бланке компании</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="feedback_full">
+                            <h3 class="title_feedback">Отзывы</h3>
+                            <div class="row">
+                                <div class="col-4 h-100">
+                                    <a class="feedback_logo" href="#"><img src="int/img/feedback_logo.png" alt=""></a>
+                                </div>
+                                <div class="col h-100">
+                                    <h5 class="feedback_mini_title">АйТи. Бизнес решения</h5>
+                                    <span class="feedback_mini_text">Генеральный директор А.Е. Лапшин</span>
+                                    <p class="feedback_text">«Порадовала быстрая доставка, ожидания оправдались на 100%» Для себя мы отметили профессионализм команды, оперативное включение в процесс, реализацию интересных нестандартных решений и полную отдачу в проекте. Желаю компании успехов в автоматизации бизнес-процессов и выражаю надежду на продолжение сотрудничества.</p>
+                                    <div class="feedback_blank">
+                                        <img class="feedback_foto" src="int/img/feedback_blanc.png" alt="">
+                                        <a class="feedback_link" href="#">Смотреть отзыв на бланке компании</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
         </div>
     </div>
 </section>
+<!-- Modal window -->
+<div class="modal fade" id="offerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>!!!!!!</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal window callback -->
+<div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Обратный звонок</h5>
+                <button type="button" class="btn-close icon-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal_body_user">
+                    <p>Введите свой телефон и мы перезвоним</p>
+                </div>
+            </div>
+            <div class="footer-modal">
+                <form action="">
+                    <div class="row row-padding-8 align-items-end">
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+7 987 979-98-89">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-sm btn-warning">Заказать</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <!--/*Carousel Feedback Finish*/-->
 <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>

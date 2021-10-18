@@ -1,0 +1,25 @@
+.btn {
+    /*40px*/
+}
+
+.btn-sm {
+    padding: 8px 16px  8px  19px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.btn-lg {
+    font-size: 14px;
+    padding: 14px 24px 14px 24px;
+}
+
+.btn-primary {
+    background: #0036b0;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.btn-warning {
+    background: #F6A219;
+    color: #FFFFFF;
+}

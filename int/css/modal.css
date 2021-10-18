@@ -1,0 +1,52 @@
+/*<!-- Modal window callback start -->*/
+.modal_body_user {
+    display: flex;
+    flex-direction: column
+}
+.modal .modal-header {
+    border-bottom: none;
+    padding: 48px 40px 8px 40px;
+}
+.modal .modal-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #343344;
+    position: absolute;
+}
+.modal .modal-body p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #545365;
+    margin-bottom: 0;
+}
+.modal .modal-body {
+    padding: 8px 40px 8px 40px;
+}
+.modal .btn-close {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #D9EEF7;
+    color: #131111;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    font-weight: 800;
+    top: -30px;
+    right: -20px;
+}
+.modal .footer-modal {
+    padding: 8px 40px 48px 40px;
+}
+.modal .footer-modal .form-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+.modal .footer-modal .form-label::after {
+    content: "*";
+    margin-left: 4px;
+    color: #E44724;
+}
+/*<!-- Modal window callback end -->*/

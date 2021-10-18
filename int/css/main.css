@@ -56,8 +56,9 @@ body {
     font-size: 14px;
     line-height: 19px;
     color: #0036B0;
+    cursor: pointer;
 }
-.header .header_right a {
+.header .header_right .header_tel {
     margin-right: 16px;
     font-weight: 800;
     text-decoration: none;
@@ -68,7 +69,12 @@ body {
 .header .header_right .header_phone {
     margin-right: 8px;
 }
-/*-----header finish------*/
+.header .header_right .icon-burger  {
+    border: 0!important;
+    font-size: 24px!important;
+    color: #0036B0;
+}
+    /*-----header finish------*/
 /*---Intro Start----*/
 .section_intro {
     padding-top: 121px;
@@ -179,6 +185,15 @@ body {
 }
 /*<!--Section mini_sale Finish-->*/
 /*<!--    section_client start-->*/
+.row-padding-8 {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+}
+.row-padding-8 > * {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
 .row-padding-20 {
     margin-left: -20px !important;
     margin-right: -20px !important;
@@ -263,4 +278,8 @@ body {
     z-index: 100;
     color: #FFFFFF;
 }
+.section_feedback_carousel {
+    position: relative;
+}
+
 /*<!--section_delivery Finish-->*/

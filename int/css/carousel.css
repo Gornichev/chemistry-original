@@ -73,13 +73,13 @@
     right: 0;
 }
 .wrapper-swiper-cert .swiper-button-next:before {
-    content: "\e904";
+    content: "\e908";
 }
 .wrapper-swiper-cert .swiper-button-prev {
     left: 0;
 }
 .wrapper-swiper-cert .swiper-button-prev:before {
-    content: "\e902";
+    content: "\e909";
 }
 /*Carousel Feedback Start*/
 .section_feedback {
@@ -124,12 +124,44 @@
 }
 /*Carousel Feedback Finish*/
 /*section_feedback_carousel start*/
-.swiper {
+.swiper_feedback {
     width: 100%;
     height: 100%;
 }
 .section_feedback_carousel {
     background: #FFFFFF;
+}
+.section_feedback .swiper-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #0036B0;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    font-family: 'icomoon', sans-serif;
+    speak: never;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.section_feedback .swiper-button:after {
+    display: none;
+}
+.section_feedback .swiper-button-next {
+    right: -70px;
+}
+.section_feedback .swiper-button-next:before {
+    content: "\e908";
+}
+.section_feedback .swiper-button-prev {
+    left: -70px;
+}
+.section_feedback .swiper-button-prev:before {
+    content: "\e909";
 }
 /*section_feedback_carousel finish*/
 
