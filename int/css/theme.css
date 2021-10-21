@@ -1,0 +1,26 @@
+.row-padding-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.row-padding-0 > * {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row-padding-8 {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+}
+.row-padding-8 > * {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.row-padding-20 {
+    margin-left: -20px !important;
+    margin-right: -20px !important;
+}
+.row-padding-20 > * {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}

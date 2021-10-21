@@ -185,24 +185,6 @@ body {
 }
 /*<!--Section mini_sale Finish-->*/
 /*<!--    section_client start-->*/
-.row-padding-8 {
-    margin-left: -8px !important;
-    margin-right: -8px !important;
-}
-.row-padding-8 > * {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-}
-
-.row-padding-20 {
-    margin-left: -20px !important;
-    margin-right: -20px !important;
-}
-.row-padding-20 > * {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-}
-
 .section_client .client_item {
     margin-bottom: 40px;
 }
@@ -281,5 +263,167 @@ body {
 .section_feedback_carousel {
     position: relative;
 }
-
 /*<!--section_delivery Finish-->*/
+/*<!--section Our_worth Start-->*/
+.worth {
+    padding-top: 80px;
+}
+.worth_start {
+    padding: 90px 48px 90px 48px;
+    background: #0036B0 url("../img/worth/intersect1.png")no-repeat center/cover;
+}
+.worth .worth_item {
+    background-color: #FFF5E4;
+}
+.worth .worth_item .worth_item_icon{
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.worth .worth_item .icon {
+    font-size: 76px;
+    color: #F6A219;
+}
+.worth .worth_item p {
+    padding: 0 32px 32px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.worth .worth_start {
+    text-align: center;
+}
+.worth .worth_start .icon {
+    font-size: 76px;
+    color: #F6A219;
+    margin-bottom: 43px;
+}
+.worth .worth_start .title_worth {
+    font-weight: 800;
+    font-size: 28px;
+    color: #FFFFFF;
+    line-height: 33px;
+    margin-bottom: 16px;
+}
+.worth .worth_start p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+/*<!--section Our_worth Finish-->*/
+/*<!--!!section_contact!!Start-->*/
+.section_contact .section_contact_title  {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    z-index: 101;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+.section_contact .section_contact_full {
+    margin-bottom: -250px;
+}
+.section_contact .section_contact_full .icon-point_one {
+    position: absolute;
+    font-size: 40px;
+    color: #F6A219;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.section_contact .contact_wrapper {
+    position: relative;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    height:0;
+}
+.section_contact .section_contact_full .contact_text {
+    padding: 48px 48px 48px 48px;
+    background: url("../img/worth/iintersect-contact.png")no-repeat center/cover;
+}
+.section_contact .section_contact_full .contact_text .contact_text_mini {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+    line-height: 19px;
+}
+.section_contact .section_contact_full .contact_text .contact_wrapper_mini {
+    max-width:300px ;
+}
+.section_contact .section_contact_full .contact_text .contact_title {
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 35px;
+    font-size: 19px;
+    color: #FFFFFF;
+    display: block;
+}
+.section_contact .section_contact_full .contact_text .contact_title::after {
+    border: #0C49D2 solid 1px;
+    display:block;
+    content: "";
+}
+.section_contact .section_contact_full .contact_text .contact_title_mini {
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 19px;
+    color: #FFFFFF;
+    display: block;
+}
+.section_contact .section_contact_full .contact_text .contact_title_mini::after {
+    border: #0C49D2 solid 1px;
+    display:block;
+    content: "";
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.section_contact .section_contact_full .contact_text .contact_phone {
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 19px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    display: block;
+}
+.section_contact .section_contact_full .contact_wrapper .contact_map {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*<!--!!section_contact!!Finish-->*/
+/*<!--section footer start-->*/
+.footer {
+    background: #D9EEF7;
+    padding-top: 290px;
+    padding-bottom: 24px;
+}
+.footer .footer_logo .logo_footer {
+    margin-bottom: 100px;
+}
+.footer .footer_logo p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #545365;
+    display: block;
+    margin: 0;
+}
+.footer .wrapper_footer .footer_info_title {
+    color: #545365;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.footer .wrapper_footer .footer_info_title p {
+    color: #545365;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+/*<!--section footer footer-->*/

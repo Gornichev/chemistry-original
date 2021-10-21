@@ -59,15 +59,14 @@
 #menu #btn-hide-menu {
     position: absolute;
     top: 44px;
-    left: 30px;
+    left: 200px;
     padding: 5px 7px;
     font-size: 14px;
     line-height: 1.2;
     cursor: pointer;
-    border: 1px solid #333;
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
+    background-color: #D9EEF7;
+    color: #262833;
+    border-radius: 50%;
     -webkit-transition: all .12s linear;
     -moz-transition: all .12s linear;
     -o-transition: all .12s linear;
@@ -88,6 +87,7 @@
 
 .nav li a {
     font-size: 16px;
+    font-weight: 600;
     color: #333;
     text-decoration: none;
     -webkit-transition: all .12s linear;
