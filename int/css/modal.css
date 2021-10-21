@@ -50,3 +50,9 @@
     color: #E44724;
 }
 /*<!-- Modal window callback end -->*/
+/*<!--modal_offer start-->*/
+.modal .modal_title_background {
+    background: url("../img/worth/intersect1.png");
+    padding: 48px 40px 357px 40px;
+}
+/*<!--modal_offer finish-->*/
