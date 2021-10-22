@@ -661,13 +661,40 @@
             <div class="row row-padding-0">
                 <div class="col-4">
                     <div class="modal_title_background">
-                        <h5 class="modal-title" id="exampleModalLabel">Получить коммерческое предложение</h5>
+                        <h5 class="modal-title_offer">Получить коммерческое предложение</h5>
                         <p>Оставьте свои контакты и мы перезвоним вам</p>
                     </div>
                 </div>
                 <div class="col-8">
                     <div class="modal_title_form">
-
+                        <div class="modal_header_form">
+                            <form action="#" method="post">
+                                <label for="exampleFormControlInput1" class="form-label modal_name">Ваше имя</label>
+                                <input type="text" class="form-control" placeholder="Семен Миронов" aria-label="First name">
+                                <button type="button" class="btn-close icon-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal_form_group">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="exampleFormControlInput2" class="form-label modal_name">Телефон</label>
+                                            <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="+7 987 979-98-89">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="exampleInputEmail1" class="form-label modal_name">Эл.почта</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="semen@gnail.com" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal_textarea">
+                                    <p>Сообщение или ваш вопрос</p>
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Можно ли у вас купить защитные костиюмы для пожарных?" style="resize: none"></textarea>
+                                    </div>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Даю согласие на обработку песональных данных</label>
+                                    <button type="button" class="btn btn-lg btn-warning">Получить коммерческое предложение</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -689,14 +716,16 @@
                 </div>
             </div>
             <div class="footer-modal">
-                <form action="">
+                <form action="#">
                     <div class="row row-padding-8 align-items-end">
                         <div class="col">
-                            <label for="exampleFormControlInput1" class="form-label">Телефон</label>
-                            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+7 987 979-98-89">
+                            <form action="#">
+                                <label for="exampleFormControlInput1" class="form-label">Телефон</label>
+                                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+7 987 979-98-89">
+                            </form>
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-sm btn-warning">Заказать</button>
+                                <button type="submit" class="btn btn-sm btn-warning">Заказать</button>
                         </div>
                     </div>
                 </form>

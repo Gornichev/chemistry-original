@@ -55,4 +55,62 @@
     background: url("../img/worth/intersect1.png");
     padding: 48px 40px 357px 40px;
 }
+.modal .modal_title_background .modal-title_offer {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.modal .modal-dialog .modal_title_form .modal_header_form .form-control  {
+    margin-bottom: 24px;
+}
+.modal .modal-dialog .modal_title_form .modal_header_form .placeholder  {
+    font-size: 25px;
+}
+.modal .modal_title_background p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.modal .modal_title_form {
+    padding: 48px 40px 48px 40px;
+    position: relative;
+}
+.modal .modal_title_form .modal_header_form  .form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #545365;
+    line-height: 19px;
+}
+.modal .modal_title_form .modal_header_form .btn-close {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #D9EEF7;
+    color: #131111;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    font-weight: 800;
+    top: 8px;
+    right: 8px;
+}
+.modal .modal_title_form .modal_name::after {
+    content: "*";
+    margin-left: 4px;
+    color: #E44724;
+}
+.modal .modal_title_form p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #545365;
+    margin-bottom: 8px;
+}
+.modal .modal_title_form .modal_textarea {
+    margin-bottom: 24px;
+}
 /*<!--modal_offer finish-->*/
