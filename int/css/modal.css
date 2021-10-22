@@ -113,4 +113,7 @@
 .modal .modal_title_form .modal_textarea {
     margin-bottom: 24px;
 }
+.modal .modal_title_form .form-check-input {
+    margin-bottom: 24px;
+}
 /*<!--modal_offer finish-->*/
