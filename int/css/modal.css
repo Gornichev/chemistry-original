@@ -79,7 +79,7 @@
     padding: 48px 40px 48px 40px;
     position: relative;
 }
-.modal .modal_title_form .modal_header_form  .form-label {
+.modal .form-label {
     font-size: 14px;
     font-weight: 500;
     color: #545365;
@@ -115,5 +115,11 @@
 }
 .modal .modal_title_form .form-check-input {
     margin-bottom: 24px;
+}
+.modal .modal_title_form .modal_textarea .form-check-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #545365;
 }
 /*<!--modal_offer finish-->*/
