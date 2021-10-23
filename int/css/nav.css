@@ -41,7 +41,7 @@
     height: 100%;
     background-color: #fff;
     transform: translateX(320px);
-    position: absolute;
+    position: fixed;
     z-index: 102;
     top: 0;
     right: 0;

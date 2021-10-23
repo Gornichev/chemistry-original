@@ -9,6 +9,31 @@
         line-height: 50px;
         margin-bottom: 16px;
     }
+
+    .section_feedback .swiper-button-next {
+        right: auto;
+        left: 50%;
+        top: 100%;
+        margin: 10px 0 0 10px;
+        z-index: 101;
+    }
+    .section_feedback .swiper-button-prev {
+        left: auto;
+        right: 50%;
+        top: 100%;
+        margin: 10px 10px 0 0;
+        z-index: 101;
+    }
+
+    .row-padding-20 {
+        margin-left: -12px !important;
+        margin-right: -12px !important;
+    }
+
+    .row-padding-20 > * {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
 }
 @media only screen and (max-width: 1100px) {
     .header .header_right .header_tel {
@@ -22,4 +47,19 @@
     }
 }
 
+@media (max-width: 767.98px) {
+    .title_client {
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
 
+    .title_client b {
+        display: block;
+    }
+    .section_client .client_item img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
