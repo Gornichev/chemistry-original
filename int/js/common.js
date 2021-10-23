@@ -31,3 +31,4 @@ const feedback = new Swiper(".swiper_feedback", {
         prevEl: ".swiper-button-prev",
     },
 });
+

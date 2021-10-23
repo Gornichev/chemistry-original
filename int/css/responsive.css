@@ -1,5 +1,25 @@
-@media (min-width: 1200px) {
-    .modal-xl {
-        max-width: 950px;
+@media only screen and (max-width: 1200px) {
+    .section_item .item_mini .text_mini  {
+        margin-bottom: 30px;
+
+    }
+    .title_intro {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 50px;
+        margin-bottom: 16px;
     }
 }
+@media only screen and (max-width: 1100px) {
+    .header .header_right .header_tel {
+        font-size: 10px;
+    }
+    .section_mini_sale .mini_sale_left .title_sale {
+        font-size: 20px;
+    }
+    .section_mini_sale .mini_sale_left {
+        padding-right: 110px;
+    }
+}
+
+
