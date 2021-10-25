@@ -264,6 +264,9 @@ body {
 .section_feedback_carousel {
     position: relative;
 }
+.section_feedback .feedback_full a {
+    display: block;
+}
 /*<!--section_delivery Finish-->*/
 /*<!--section Our_worth Start-->*/
 .worth {

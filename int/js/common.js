@@ -32,3 +32,34 @@ const feedback = new Swiper(".swiper_feedback", {
     },
 });
 
+var swiper = new Swiper('.swiper-cert', {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    breakpoints: {
+        200: {
+            slidesPerView: 1,
+            spaceBetween: 30
+        },
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 30
+        },
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        767: {
+            slidesPerView: 2,
+            spaceBetween: 40
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 20
+        },
+        1200: {
+            slidesPerView: 5,
+            spaceBetween: 20
+        },
+
+    }
+})

@@ -1,7 +1,6 @@
-@media only screen and (max-width: 1200px) {
+@media  screen and (max-width: 1200px) {
     .section_item .item_mini .text_mini  {
         margin-bottom: 30px;
-
     }
     .title_intro {
         font-weight: 800;
@@ -39,21 +38,57 @@
     .header .header_right .header_tel {
         font-size: 13px;
     }
+    .section_item {
+        padding: 0;
+    }
     .section_mini_sale .mini_sale_left .title_sale {
         font-size: 20px;
     }
     .section_mini_sale .mini_sale_left {
         padding-right: 110px;
     }
+    .item_mini {
+        margin-bottom: 20px;
+    }
+    .section_delivery .delivery {
+        margin-bottom: 20px;
+    }
+    .section_carousel {
+        margin-bottom: 60px;
+        padding-top: 20px;
+    }
+    .wrapper-swiper-cert .swiper-button-next {
+        right: auto;
+        left: 50%;
+        top: 100%;
+        margin: 10px 0 0 10px;
+        z-index: 101;
+    }
+    .wrapper-swiper-cert .swiper-button-prev {
+        left: auto;
+        right: 50%;
+        top: 100%;
+        margin: 10px 10px 0 0;
+        z-index: 101;
+    }
+    .section_contact .section_contact_title {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .section_contact .section_contact_full .contact_text {
+        margin-bottom: 40px;
+    }
+    .worth {
+        padding-top: 40px;
+    }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     .title_client {
         text-align: center;
         padding-right: 0;
         padding-bottom: 30px;
     }
-
     .title_client b {
         display: block;
     }
@@ -61,5 +96,34 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .section_intro {
+        padding-top: 20px;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 905px) {
+    .section_intro .intro_left {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .title_intro {
+        font-size: 26px;
+    }
+}
+@media (max-width: 768px) {
+    .section_intro .intro_img {
+        margin-top: 0;
+    }
+    .title_intro {
+        font-size: 20px;
+    }
+}
+@media (max-width: 350px) {
+    .section_intro .intro_img {
+        display: none;
     }
 }
