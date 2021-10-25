@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 .container {
-    max-width: 1266px;
+    max-width: 1304px;
 }
 .container-sm {
     max-width: 1060px;
@@ -19,6 +19,7 @@ body {
 .header_right {
     display: flex;
     align-items: center;
+    padding-top: 14px;
 }
 .header {
     padding-top: 16px;
@@ -26,28 +27,25 @@ body {
 }
 .logo {
     display: flex;
-    align-items: center;
 }
 .logo .logo-text {
-    max-width: 230px;
+    max-width: 270px;
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     display: block;
+    margin-top: 12px;
 }
 .logo .header_logo {
-    width: 79px;
-    height: auto;
-    margin-right: 30px;
+    width: auto;
+    height: 83px;
+    margin-right: 14px;
 }
 .header .header_right .btn-catalog {
     margin-right: 30px;
 }
 .header .header_right .btn-catalog:hover {
     color: #0036b0;
-}
-.header .header_right .icon {
-    margin-right: 11px ;
 }
 .header .header_right .header_order {
     margin-right: 40px;
@@ -75,19 +73,15 @@ body {
 }
     /*-----header finish------*/
 /*---Intro Start----*/
-.section_intro {
-    padding-top: 121px;
+.section_intro .intro_left {
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
 .section_intro .intro_left .intro_text {
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     margin-bottom: 40px;
-}
-.section_intro .intro_img {
-    margin-top: -100px;
-    width: 100%;
-    height: auto;
 }
 .title_intro {
     font-weight: 800;
