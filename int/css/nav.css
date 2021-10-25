@@ -105,3 +105,10 @@
 .nav li a:hover {
     color: #249ac2;
 }
+#menu .nav .btn {
+    padding: 0;
+}
+#menu .nav .btn .icon {
+    margin-right: 7px;
+    margin-top: 0;
+}

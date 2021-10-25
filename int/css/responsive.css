@@ -113,6 +113,11 @@
     .title_intro {
         font-size: 26px;
     }
+    .section_mini_sale .mini_sale_right {
+        margin-left: 110px;
+        padding-top: 0;
+    }
+
 }
 @media (max-width: 768px) {
     .section_intro .intro_img {
@@ -120,6 +125,9 @@
     }
     .title_intro {
         font-size: 20px;
+    }
+    .section_item .item_second {
+        padding-bottom: 20px;
     }
 }
 @media (max-width: 350px) {
