@@ -117,6 +117,12 @@
         margin-left: 110px;
         padding-top: 0;
     }
+    .header .header_right .header_tel {
+        margin-right: 150px;
+    }
+    .header .header_right .header_order {
+        margin-right: 150px;
+    }
 
 }
 @media (max-width: 768px) {
