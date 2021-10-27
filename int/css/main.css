@@ -94,18 +94,21 @@ body {
 /*---Intro Finish----*/
 /*<!--Section item Start-->*/
 .section_item {
-    padding-top: 80px;
+    padding-top: 84px;
 }
 .item_mini {
     background: #FFF5E4;
-    padding: 48px 110px;
+    padding-top: 49px;
+    padding-right: 65px;
+    padding-bottom: 57px;
+    padding-left: 115px;
     margin-bottom: 80px;
 }
 .section_item  .item_mini .icon_mini {
     font-size: 30px;
     color: #F6A219;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 22px;
 }
 .section_item .item-flex {
     display: flex;
@@ -124,7 +127,7 @@ body {
     font-weight:800;
     font-size: 28px;
     line-height: 33px;
-    margin-bottom: 40px;
+    margin-bottom: 65px;
 }
 .section_item .item {
     padding-right: 24px;
