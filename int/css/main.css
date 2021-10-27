@@ -19,10 +19,10 @@ body {
 .header_right {
     display: flex;
     align-items: center;
-    padding-top: 14px;
+    padding-top: 13px;
 }
 .header {
-    padding-top: 16px;
+    padding-top: 14px;
     padding-bottom: 0;
 }
 .logo {
@@ -42,7 +42,7 @@ body {
     margin-right: 14px;
 }
 .header .header_right .btn-catalog {
-    margin-right: 30px;
+    margin-right: 22px;
 }
 .header .header_right .btn-catalog:hover {
     color: #0036b0;
@@ -71,6 +71,9 @@ body {
     font-size: 24px!important;
     color: #0036B0;
 }
+.icon-download:before {
+    margin-right: 5px;
+}
     /*-----header finish------*/
 /*---Intro Start----*/
 .section_intro .container {
@@ -91,8 +94,8 @@ body {
 .section_intro .intro_left .intro_text {
     font-weight: 500;
     font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 41px;
+    line-height: 20px;
+    margin-bottom: 40px;
     max-width: 440px;
 ;
 }
