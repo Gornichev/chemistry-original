@@ -5,8 +5,8 @@
 }
 .wrapper-swiper-cert {
     position: relative;
-    padding-left: 84px;
-    padding-right: 84px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 .wrapper-swiper-cert .swiper {
     width: 100%;
@@ -35,7 +35,9 @@
 .wrapper-swiper-cert .title {
     display: block;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 1.45;
 }
 
 .wrapper-swiper-cert .swiper-button {
@@ -44,16 +46,16 @@
     border-radius: 50%;
     background-color: #D9EEF7;
     color: #0036B0;
-    font-size: 20px;
+    font-size: 14px;
     position: absolute;
-    top: 95px;
+    top: 93px;
 
     font-family: 'icomoon';
     src: url('../icons/fonts/icomoon.eot?fo6v1m');
     src: url('../icons/fonts/icomoon.eot?fo6v1m#iefix') format('embedded-opentype'),
         url('../icons/fonts/icomoon.ttf?fo6v1m') format('truetype'),
         url('../icons/fonts/icomoon.woff?fo6v1m') format('woff'),
-        url('../icons/fonts/icomoon.svg?fo6v1m#icomoon') format('svg');
+        uon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -70,13 +72,13 @@
     display: none;
 }
 .wrapper-swiper-cert .swiper-button-next {
-    right: 0;
+    right: 22px;
 }
 .wrapper-swiper-cert .swiper-button-next:before {
     content: "\e908";
 }
 .wrapper-swiper-cert .swiper-button-prev {
-    left: 0;
+    left: 22px;
 }
 .wrapper-swiper-cert .swiper-button-prev:before {
     content: "\e909";

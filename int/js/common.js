@@ -15,14 +15,6 @@ hideMenu.onclick = function() {
     menu.classList.remove("show");
 }
 
-const swiperCert = new Swiper(".swiper-cert", {
-    slidesPerView: 5,
-    spaceBetween: 40,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
 // Section_feedback Start
 const feedback = new Swiper(".swiper_feedback", {
     slidesPerView: 1,
@@ -34,8 +26,12 @@ const feedback = new Swiper(".swiper_feedback", {
 
 const swiper = new Swiper('.swiper-cert', {
     slidesPerView: 5,
-    spaceBetween: 10,
+    spaceBetween: 40,
     speed: 500,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
     breakpoints: {
         200: {
             slidesPerView: 1,
@@ -55,11 +51,11 @@ const swiper = new Swiper('.swiper-cert', {
         },
         992: {
             slidesPerView: 4,
-            spaceBetween: 20
+            spaceBetween: 40
         },
         1200: {
             slidesPerView: 5,
-            spaceBetween: 20
+            spaceBetween: 40
         },
 
     }

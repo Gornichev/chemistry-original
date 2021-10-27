@@ -1,16 +1,17 @@
 .btn {
-
+    border-radius: 0;
 }
 
 .btn-sm {
-    padding: 8px 16px  8px  19px;
+    padding: 8px 16px;
     line-height: 19px;
     font-size: 14px;
 }
 
 .btn-lg {
     font-size: 14px;
-    padding: 14px 24px 14px 24px;
+    line-height: 22px;
+    padding: 12px 24px;
 }
 
 .btn-primary {

@@ -73,6 +73,17 @@ body {
 }
     /*-----header finish------*/
 /*---Intro Start----*/
+.section_intro .container {
+    position: relative;
+}
+
+.section_intro .intro_img {
+    position: absolute;
+    max-height: 544px;
+    width: auto;
+    right: -3px;
+}
+
 .section_intro .intro_left {
     padding-top: 90px;
     padding-bottom: 120px;
@@ -81,7 +92,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    margin-bottom: 42px;
+    margin-bottom: 41px;
     max-width: 440px;
 ;
 }
@@ -94,21 +105,18 @@ body {
 /*---Intro Finish----*/
 /*<!--Section item Start-->*/
 .section_item {
-    padding-top: 84px;
+    padding-top: 80px;
 }
 .item_mini {
     background: #FFF5E4;
-    padding-top: 49px;
-    padding-right: 65px;
-    padding-bottom: 57px;
-    padding-left: 115px;
+    padding: 53px 65px 55px 113px;
     margin-bottom: 80px;
 }
 .section_item  .item_mini .icon_mini {
-    font-size: 30px;
+    font-size: 35px;
     color: #F6A219;
     display: inline-block;
-    margin-right: 22px;
+    margin-right: 17px;
 }
 .section_item .item-flex {
     display: flex;
@@ -117,32 +125,30 @@ body {
 .section_item .item_mini .text_mini {
     font-weight: 500;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 20px;
     color: #545365;
     max-width: 170px;
     display: block;
 }
 .title-item {
     text-align: center;
-    font-weight:800;
+    font-weight: 800;
     font-size: 28px;
-    line-height: 33px;
-    margin-bottom: 65px;
-}
-.section_item .item {
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 32px;
-    margin-bottom: 80px;
+    line-height: 35px;
+    margin-bottom: 40px;
 }
 .section_item .item_second {
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-bottom: 54px;
+    min-height: 360px;
+    border: 1px solid #E3EDF1;
+    margin-top: -1px;
+    margin-left: -1px;
 }
 .section_item .item_body {
-    margin-bottom: 10px;
+    padding: 24px 24px 10px;
     text-align: center;
+}
+.section_item .item_footer {
+    padding: 0 24px 24px;
 }
 .section_item .item_footer .item_title {
     text-align: center;
