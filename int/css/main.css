@@ -10,7 +10,7 @@ body {
     max-width: 1304px;
 }
 .container-sm {
-    max-width: 1060px;
+    max-width: 1084px;
 }
 /*-----header start------*/
 .section_background-top {
@@ -75,19 +75,21 @@ body {
 /*---Intro Start----*/
 .section_intro .intro_left {
     padding-top: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 .section_intro .intro_left .intro_text {
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
+    max-width: 440px;
+;
 }
 .title_intro {
     font-weight: 800;
     font-size: 39px;
     line-height: 50px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 /*---Intro Finish----*/
 /*<!--Section item Start-->*/
@@ -288,6 +290,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    margin-bottom: 40px;
 }
 .worth .worth_start {
     text-align: center;

@@ -32,10 +32,10 @@ const feedback = new Swiper(".swiper_feedback", {
     },
 });
 
-var swiper = new Swiper('.swiper-cert', {
+const swiper = new Swiper('.swiper-cert', {
     slidesPerView: 5,
     spaceBetween: 10,
-    speed:500,
+    speed: 500,
     breakpoints: {
         200: {
             slidesPerView: 1,
@@ -63,4 +63,4 @@ var swiper = new Swiper('.swiper-cert', {
         },
 
     }
-})
+});
