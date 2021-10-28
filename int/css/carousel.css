@@ -94,6 +94,9 @@
 }
 .section_feedback .title_feedback  {
     margin-bottom:  32px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
 }
 .section_feedback .feedback_full .feedback_mini_title {
     color: #343344;
@@ -104,9 +107,9 @@
 }
 .section_feedback .feedback_mini_text {
     color: #343344;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 20px;
     margin-bottom: 25px;
     display: block;
 }
@@ -118,7 +121,7 @@
     line-height: 27px;
 }
 .section_feedback .feedback_full .feedback_blank .feedback_link {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 19px;
     color: #0036B0;
     font-weight: 500;
@@ -156,13 +159,13 @@
     display: none;
 }
 .section_feedback .swiper-button-next {
-    right: -70px;
+    right: -60px;
 }
 .section_feedback .swiper-button-next:before {
     content: "\e908";
 }
 .section_feedback .swiper-button-prev {
-    left: -70px;
+    left: -60px;
 }
 .section_feedback .swiper-button-prev:before {
     content: "\e909";
