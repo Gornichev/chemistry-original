@@ -98,31 +98,33 @@
 .section_feedback .feedback_full .feedback_mini_title {
     color: #343344;
     margin-bottom: 8px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 29px;
 }
 .section_feedback .feedback_mini_text {
     color: #343344;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 19px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
     display: block;
 }
 .section_feedback .feedback_full .feedback_text {
     color: #343344;
-    margin-bottom: 24px;
+    margin-bottom: 27px;
     font-size: 19px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 27px;
 }
 .section_feedback .feedback_full .feedback_blank .feedback_link {
     font-size: 14px;
     line-height: 19px;
     color: #0036B0;
     font-weight: 500;
-    margin-left: 16px;
+    margin-left: -3px;
+    padding: 25px 0 25px 16px;
+    text-decoration: none;
 }
 /*Carousel Feedback Finish*/
 /*section_feedback_carousel start*/
