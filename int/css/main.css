@@ -177,7 +177,7 @@ body {
 }
 .section_mini_sale .mini_sale_left {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 44px;
     padding-left: 110px;
 }
 .section_mini_sale .mini_sale_left .title_sale {
@@ -320,11 +320,13 @@ border: 1px solid #E3EDF1;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    text-align: center;
 }
 .worth .worth_start {
     text-align: center;
     height: 100%;
+    min-height: 540px;
 }
 .worth .worth_start .icon {
     font-size: 76px;
@@ -374,7 +376,7 @@ border: 1px solid #E3EDF1;
     height:0;
 }
 .section_contact .section_contact_full .contact_text {
-    padding: 48px 48px 48px 48px;
+    padding: 48px 52px 48px 48px;
     background: url("../img/worth/iintersect-contact.png")no-repeat center/cover;
 }
 .section_contact .section_contact_full .contact_text .contact_text_mini {
@@ -433,8 +435,8 @@ border: 1px solid #E3EDF1;
 /*<!--section footer start-->*/
 .footer {
     background: #D9EEF7;
-    padding-top: 290px;
-    padding-bottom: 24px;
+    padding-top: 294px;
+    padding-bottom: 27px;
 }
 .footer .footer_logo .logo_footer {
     margin-bottom: 100px;
@@ -461,3 +463,7 @@ border: 1px solid #E3EDF1;
     line-height: 19px;
 }
 /*<!--section footer footer-->*/
+
+.callback {
+    display: flex;
+}

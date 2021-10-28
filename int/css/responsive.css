@@ -1,9 +1,6 @@
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1199.98px) {
     .section_intro .intro_img {
         max-height: 450px;
-    }
-    .section_item .item_mini .text_mini  {
-        margin-bottom: 30px;
     }
     .title_intro {
         font-weight: 800;
@@ -36,10 +33,9 @@
         padding-left: 12px !important;
         padding-right: 12px !important;
     }
-}
-@media only screen and (max-width: 1100px) {
+
     .header .header_right .header_tel {
-        font-size: 13px;
+        font-size: 14px;
     }
     .section_item {
         padding: 0;
@@ -52,6 +48,8 @@
     }
     .item_mini {
         margin-bottom: 20px;
+        margin-left: -12px;
+        margin-right: -12px;
     }
     .section_delivery .delivery {
         margin-bottom: 20px;
@@ -85,7 +83,7 @@
         padding-top: 40px;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
     .title_intro {
         font-size: 26px;
     }
@@ -93,33 +91,34 @@
         margin-left: 110px;
         padding-top: 0;
     }
-    .header .header_right .header_tel {
-        margin-right: 100px;
-        font-size: 23px;
-    }
     .header .header_right .header_tel:hover{
         color: #F6A219;
-    }
-    .header .header_right .header_order {
-        margin-right: 100px;
-        font-size: 23px;
     }
     .header .header_right .header_order:hover {
         color: #F6A219;
     }
-    .header_right {
-        margin-left: 25px;
-    }
     .header .header_right .icon-burger  {
         font-size: 28px;
     }
-}
-@media (max-width: 905px) {
     .section_intro .intro_left {
         margin-bottom: 20px;
     }
+    .item_mini {
+        padding: 30px;
+    }
+    .section_item .item-flex {
+        margin-bottom: 20px;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .section_item .item_mini .icon_mini {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 767.98px) {
     .section_intro .intro_img {
         margin-top: 0;
     }
@@ -149,6 +148,35 @@
         margin-bottom: 20px;
     }
 }
+
+@media (max-width: 576px) {
+    .header_tel {
+        display: block;
+    }
+
+    .header_right {
+        flex-direction: column;
+        padding-right: 50px;
+        position: relative;
+        padding-top: 0;
+    }
+
+    #btn-show-menu {
+        position: absolute;
+        right: 0;
+        top: -3px;
+    }
+
+    .callback {
+        margin-bottom: 7px;
+    }
+
+    .header .header_right .header_order {
+        margin-right: 0;
+        margin-left: 6px;
+    }
+}
+
 @media (max-width: 350px) {
     .section_intro .intro_img {
         display: none;

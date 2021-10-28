@@ -37,3 +37,11 @@
 .form-control::-webkit-input-placeholder {
     color: #343344;
 }
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.mw-620 {
+    max-width: 620px;
+}
