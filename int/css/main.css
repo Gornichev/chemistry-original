@@ -324,6 +324,7 @@ border: 1px solid #E3EDF1;
 }
 .worth .worth_start {
     text-align: center;
+    height: 100%;
 }
 .worth .worth_start .icon {
     font-size: 76px;
@@ -342,6 +343,7 @@ border: 1px solid #E3EDF1;
     font-size: 15px;
     line-height: 22px;
     color: #FFFFFF;
+    margin-bottom: 32px;
 }
 /*<!--section Our_worth Finish-->*/
 /*<!--!!section_contact!!Start-->*/

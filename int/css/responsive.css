@@ -1,4 +1,7 @@
 @media  screen and (max-width: 1200px) {
+    .section_intro .intro_img {
+        max-height: 450px;
+    }
     .section_item .item_mini .text_mini  {
         margin-bottom: 30px;
     }
@@ -82,8 +85,50 @@
         padding-top: 40px;
     }
 }
-
+@media (max-width: 992px) {
+    .title_intro {
+        font-size: 26px;
+    }
+    .section_mini_sale .mini_sale_right {
+        margin-left: 110px;
+        padding-top: 0;
+    }
+    .header .header_right .header_tel {
+        margin-right: 100px;
+        font-size: 23px;
+    }
+    .header .header_right .header_tel:hover{
+        color: #F6A219;
+    }
+    .header .header_right .header_order {
+        margin-right: 100px;
+        font-size: 23px;
+    }
+    .header .header_right .header_order:hover {
+        color: #F6A219;
+    }
+    .header_right {
+        margin-left: 25px;
+    }
+    .header .header_right .icon-burger  {
+        font-size: 28px;
+    }
+}
+@media (max-width: 905px) {
+    .section_intro .intro_left {
+        margin-bottom: 20px;
+    }
+}
 @media (max-width: 768px) {
+    .section_intro .intro_img {
+        margin-top: 0;
+    }
+    .title_intro {
+        font-size: 20px;
+    }
+    .section_item .item_second {
+        padding-bottom: 20px;
+    }
     .title_client {
         text-align: center;
         padding-right: 0;
@@ -102,38 +147,6 @@
     }
     .logo {
         margin-bottom: 20px;
-    }
-}
-@media (max-width: 905px) {
-    .section_intro .intro_left {
-        margin-bottom: 20px;
-    }
-}
-@media (max-width: 992px) {
-    .title_intro {
-        font-size: 26px;
-    }
-    .section_mini_sale .mini_sale_right {
-        margin-left: 110px;
-        padding-top: 0;
-    }
-    .header .header_right .header_tel {
-        margin-right: 150px;
-    }
-    .header .header_right .header_order {
-        margin-right: 150px;
-    }
-
-}
-@media (max-width: 768px) {
-    .section_intro .intro_img {
-        margin-top: 0;
-    }
-    .title_intro {
-        font-size: 20px;
-    }
-    .section_item .item_second {
-        padding-bottom: 20px;
     }
 }
 @media (max-width: 350px) {
