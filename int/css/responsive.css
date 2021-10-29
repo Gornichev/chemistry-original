@@ -43,9 +43,6 @@
     .section_mini_sale .mini_sale_left .title_sale {
         font-size: 20px;
     }
-    .section_mini_sale .mini_sale_left {
-        padding-right: 110px;
-    }
     .item_mini {
         margin-bottom: 20px;
         margin-left: -12px;
@@ -53,6 +50,7 @@
     }
     .section_delivery .delivery {
         margin-bottom: 20px;
+        height: 100%;
     }
     .section_carousel {
         margin-bottom: 60px;
@@ -84,12 +82,11 @@
     }
 }
 @media (max-width: 991.98px) {
+    .section_intro .intro_img {
+        max-height: 370px;
+    }
     .title_intro {
         font-size: 26px;
-    }
-    .section_mini_sale .mini_sale_right {
-        margin-left: 110px;
-        padding-top: 0;
     }
     .header .header_right .header_tel:hover{
         color: #F6A219;
@@ -102,6 +99,8 @@
     }
     .section_intro .intro_left {
         margin-bottom: 20px;
+        padding-top: 60px;
+        padding-bottom: 20px;
     }
     .item_mini {
         padding: 30px;
@@ -116,22 +115,64 @@
         margin-right: 0;
         margin-bottom: 10px;
     }
+    .title-item {
+        margin-bottom: 20px;
+    }
+    .section_mini_sale .mini_sale_right {
+        margin-left: 0;
+        padding-right: 55px;
+    }
+    .section_mini_sale .mini_sale_left {
+        max-width: 500px;
+        padding-bottom: 40px;
+    }
+    .section_mini_sale .mini_sale_left .title_sale {
+        margin-bottom:  10px;
+    }
+    .wrapper-swiper-cert {
+        margin-bottom: 80px;
+    }
+    .section_mini_sale {
+        margin-bottom: 40px;
+    }
+    .title_client {
+        text-align: center;
+        padding: 50px;
+    }
+    .section_delivery {
+        padding: 0;
+    }
+    .section_feedback {
+        padding: 0;
+        background: #FFFFFF;
+    }
+    .section_feedback .feedback_full {
+        padding: 20px;
+    }
+    .section_feedback .title_feedback {
+        margin-left: 330px;
+    }
+    .section_feedback .feedback_full .feedback_mini_title {
+        text-align: center;
+    }
+    .section_feedback .feedback_mini_text {
+        text-align: center;
+    }
 }
-
 @media (max-width: 767.98px) {
     .section_intro .intro_img {
         margin-top: 0;
     }
     .title_intro {
-        font-size: 20px;
+        font-size: 26px;
     }
     .section_item .item_second {
         padding-bottom: 20px;
     }
     .title_client {
         text-align: center;
-        padding-right: 0;
-        padding-bottom: 30px;
+        padding: 40px;
+        max-width: 767px;
     }
     .title_client b {
         display: block;
@@ -147,8 +188,26 @@
     .logo {
         margin-bottom: 20px;
     }
+    .wrapper-swiper-cert {
+        margin-bottom: 80px;
+    }
+    .section_mini_sale .mini_sale_left {
+        padding: 20px;
+        max-width: 757px;
+        text-align: center;
+    }
+    .section_mini_sale .mini_sale_right {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .section_feedback .title_feedback {
+        text-align: center;
+        margin: 0;
+    }
+    .feedback_logo {
+        margin: 20px auto;
+    }
 }
-
 @media (max-width: 576px) {
     .header_tel {
         display: block;
@@ -174,6 +233,21 @@
     .header .header_right .header_order {
         margin-right: 0;
         margin-left: 6px;
+    }
+    .section_feedback .title_feedback {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .feedback_logo {
+        margin: 0 auto;
+    }
+    .title_client {
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .section_mini_sale {
+        margin-bottom: 20px;
     }
 }
 
