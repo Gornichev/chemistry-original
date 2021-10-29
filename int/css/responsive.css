@@ -158,52 +158,85 @@
     .section_feedback .feedback_mini_text {
         text-align: center;
     }
+    .section_feedback .swiper-button-next {
+        top: 500px;
+    }
+
+    .section_feedback .swiper-button {
+        background-color: #d9dae1;
+    }
+
+    .section_feedback .swiper-button-prev {
+        top: 500px;
+    }
+    .worth {
+        padding-top: 80px;
+    }
+    .worth .worth_start {
+        padding: 40px;
+        min-height: 350px;
+    }
+    .row-padding-20 {
+        padding: 0 50px;
+    }
 }
 @media (max-width: 767.98px) {
     .section_intro .intro_img {
         margin-top: 0;
     }
+
     .title_intro {
-        font-size: 26px;
+        font-size: 27px;
     }
+
     .section_item .item_second {
         padding-bottom: 20px;
     }
+
     .title_client {
         text-align: center;
         padding: 40px;
         max-width: 767px;
     }
+
     .title_client b {
         display: block;
     }
+
     .section_client .client_item img {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
     .section_intro {
         padding-top: 20px;
     }
+
     .logo {
         margin-bottom: 20px;
     }
+
     .wrapper-swiper-cert {
         margin-bottom: 80px;
     }
+
     .section_mini_sale .mini_sale_left {
         padding: 20px;
         max-width: 757px;
         text-align: center;
     }
+
     .section_mini_sale .mini_sale_right {
         padding-top: 20px;
         padding-bottom: 40px;
     }
+
     .section_feedback .title_feedback {
         text-align: center;
         margin: 0;
     }
+
     .feedback_logo {
         margin: 20px auto;
     }
