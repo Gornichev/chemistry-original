@@ -19,7 +19,7 @@ body {
 .header_right {
     display: flex;
     align-items: center;
-    padding-top: 14px;
+    padding-top: 15px;
 }
 .header {
     padding-top: 14px;
@@ -163,7 +163,7 @@ body {
 /*<!--Section item Finish-->*/
 /*<!--Section mini_sale Start-->*/
 .section_mini_sale {
-    margin-bottom: 78px;
+    margin-bottom: 82px;
 }
 .mini_sale_wrapper {
     background: url("../img/sale/back_sale.png")no-repeat center / cover;
@@ -210,7 +210,7 @@ body {
 /*<!--    section_client Finish-->*/
 /*<!--section_delivery Start-->*/
 .section_delivery {
-    padding:42px 0 80px 0;
+    padding:41px 0 80px 0;
 }
 .section_delivery .delivery {
     padding: 48px 64px 84px 48px;
@@ -299,7 +299,7 @@ border: 1px solid #E3EDF1;
     padding-top: 80px;
 }
 .worth_start {
-    padding: 90px 48px 90px 48px;
+    padding: 100px 48px 90px 48px;
     background: #0036B0 url("../img/worth/intersect1.png")no-repeat center/cover;
 }
 .worth .worth_item {
@@ -343,9 +343,10 @@ border: 1px solid #E3EDF1;
 .worth .worth_start p {
     font-weight: 500;
     font-size: 15px;
-    line-height: 22px;
+    line-height: 24px;
     color: #FFFFFF;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
+    margin-left: 6px;
 }
 /*<!--section Our_worth Finish-->*/
 /*<!--!!section_contact!!Start-->*/
@@ -376,7 +377,7 @@ border: 1px solid #E3EDF1;
     height:0;
 }
 .section_contact .section_contact_full .contact_text {
-    padding: 48px 52px 48px 48px;
+    padding: 48px 52px 45px 46px;
     background: url("../img/worth/iintersect-contact.png")no-repeat center/cover;
 }
 .section_contact .section_contact_full .contact_text .contact_text_mini {
@@ -384,7 +385,7 @@ border: 1px solid #E3EDF1;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 8px;
-    line-height: 19px;
+    line-height: 21px;
 }
 .section_contact .section_contact_full .contact_text .contact_wrapper_mini {
     max-width:300px ;
@@ -392,7 +393,7 @@ border: 1px solid #E3EDF1;
 .section_contact .section_contact_full .contact_text .contact_title {
     font-weight: 700;
     line-height: 26px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
     font-size: 19px;
     color: #FFFFFF;
     display: block;
@@ -401,6 +402,8 @@ border: 1px solid #E3EDF1;
     border: #0C49D2 solid 1px;
     display:block;
     content: "";
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .section_contact .section_contact_full .contact_text .contact_title_mini {
     font-weight: 700;
@@ -418,7 +421,7 @@ border: 1px solid #E3EDF1;
 }
 .section_contact .section_contact_full .contact_text .contact_phone {
     font-weight: 700;
-    line-height: 26px;
+    line-height: 23px;
     font-size: 19px;
     color: #FFFFFF;
     margin-bottom: 16px;
@@ -456,11 +459,11 @@ border: 1px solid #E3EDF1;
     line-height: 19px;
     margin-bottom: 20px;
 }
-.footer .wrapper_footer .footer_info_title p {
+.footer .wrapper_footer p {
     color: #545365;
     font-weight: 500;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 21px;
 }
 /*<!--section footer footer-->*/
 
