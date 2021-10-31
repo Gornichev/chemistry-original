@@ -272,6 +272,12 @@
     }
 }
 @media (max-width: 576px) {
+    .title_intro {
+        font-size: 31px;
+    }
+    .title_intro {
+        margin-bottom: 10px;
+    }
     .header_tel {
         display: block;
     }
@@ -286,7 +292,7 @@
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, 0);
-        max-height: 200px;
+        max-height: 206px;
         top: 49%;
     }
     .section_intro .intro_left .intro_text {
