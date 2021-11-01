@@ -196,10 +196,18 @@
         margin: 0 auto;
         text-align: center;
     }
+    .section_item .item_second {
+        min-height: 320px;
+    }
     .worth .worth_item {
         min-height: 270px;
     }
-
+    .section_item .item_body {
+        padding: 10px 0 0;
+    }
+    .section_item .item_footer {
+        padding: 0;
+    }
     .section_intro .intro_img {
         margin-top: 0;
         padding: 0;
