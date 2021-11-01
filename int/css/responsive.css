@@ -283,10 +283,13 @@
         font-size: 31px;
     }
     .section_item .item_body {
-        padding: 10px 0 0;
+        padding: 0;
     }
     .section_item .item_second {
-        min-height: 372px;
+        min-height: 315px;
+    }
+    .section_item .item_footer {
+        padding: 0;
     }
     .title_intro {
         margin-bottom: 10px;
