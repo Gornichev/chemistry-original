@@ -75,7 +75,7 @@
         text-align: center;
     }
     .section_contact .section_contact_full .contact_text {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .worth {
         padding-top: 40px;
@@ -187,12 +187,19 @@
     .section_delivery .delivery {
         padding: 48px 64px 40px 48px;
     }
+    .worth .intro_flex {
+        justify-content: center;
+    }
 }
 @media (max-width: 767.98px) {
     .section_mini_sale .mini_sale_left {
         margin: 0 auto;
         text-align: center;
     }
+    .worth .worth_item {
+        min-height: 270px;
+    }
+
     .section_intro .intro_img {
         margin-top: 0;
         padding: 0;
@@ -224,7 +231,7 @@
     }
 
     .section_intro {
-        padding-top: 20px;
+        padding-top: 0;
     }
 
     .logo {
@@ -258,10 +265,10 @@
         text-align: center;
     }
     .section_feedback .swiper-button-next {
-        top: 600px;
+        top: 610px;
     }
     .section_feedback .swiper-button-prev {
-        top: 600px;
+        top: 610px;
     }
     .section_mini_sale .mini_sale_left {
         padding: 40px 0 0 0;
@@ -287,16 +294,17 @@
     .section_intro .intro_left {
         padding-top: 0;
         padding-bottom: 20px;
+        text-align: center;
     }
     .section_intro .intro_img {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, 0);
         max-height: 206px;
-        top: 49%;
+        top: 50%;
     }
     .section_intro .intro_left .intro_text {
-        margin-bottom: 200px;
+        margin-bottom: 214px;
     }
     .header_right {
         flex-direction: column;
