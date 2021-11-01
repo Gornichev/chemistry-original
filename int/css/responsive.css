@@ -201,6 +201,10 @@
     .section_mini_sale .mini_sale_left {
         margin: 0 auto;
         text-align: center;
+        padding: 40px 0 0 0;
+    }
+    .section_mini_sale .mini_sale_left {
+        padding: 20px 40px 0 40px;
     }
     .section_item .item_second {
         min-height: 320px;
@@ -284,9 +288,6 @@
     .section_feedback .swiper-button-prev {
         top: 610px;
     }
-    .section_mini_sale .mini_sale_left {
-        padding: 40px 0 0 0;
-    }
     .section_delivery .delivery {
         margin-bottom: 20px;
         height: auto;
@@ -310,9 +311,6 @@
     }
     .header_tel {
         display: block;
-    }
-    .section_mini_sale .mini_sale_left {
-        padding-left: 40px;
     }
     .section_intro .intro_left {
         padding-top: 0;
