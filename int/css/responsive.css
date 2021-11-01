@@ -182,7 +182,13 @@
         margin-top: 0;
     }
     .section_item .item_second {
-        min-height: 354px;
+        min-height: 320px;
+    }
+    .section_item .item_body {
+        padding: 10px 0 0;
+    }
+    .section_item .item_footer {
+        padding: 0;
     }
     .section_delivery .delivery {
         padding: 48px 64px 40px 48px;
