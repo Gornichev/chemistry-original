@@ -296,6 +296,9 @@ border: 1px solid #E3EDF1;
 .worth {
     padding-top: 80px;
 }
+.worth .top .worth_item {
+    margin-bottom: 40px;
+}
 .worth_start {
     padding: 100px 48px 90px 48px;
     background: #0036B0 url("../img/worth/intersect1.png")no-repeat center/cover;
