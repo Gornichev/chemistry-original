@@ -80,6 +80,9 @@
     .worth {
         padding-top: 40px;
     }
+    .worth .intro_flex {
+        justify-content: center;
+    }
 }
 @media (max-width: 991.98px) {
     .section_intro .intro_img {
@@ -183,6 +186,7 @@
     }
     .section_item .item_second {
         min-height: 320px;
+        padding: 20px 0 0 0;
     }
     .section_item .item_body {
         padding: 10px 0 0;
@@ -295,13 +299,13 @@
 }
 @media (max-width: 576px) {
     .title_intro {
-        font-size: 31px;
+        font-size: 30px;
     }
     .section_item .item_body {
         padding: 0;
     }
     .section_item .item_second {
-        min-height: 315px;
+        min-height: 267px;
     }
     .section_item .item_footer {
         padding: 0;
@@ -352,14 +356,14 @@
         margin-bottom: 20px;
     }
     .title_intro {
-        line-height: 40px;
+        line-height: 36px;
     }
     .feedback_logo {
         margin: 0 auto;
     }
     .title_client {
         margin: 0 auto;
-        padding: 20px;
+        padding: 10px;
     }
     .section_mini_sale {
         margin-bottom: 20px;
@@ -373,7 +377,5 @@
 } 
 
 @media (max-width: 350px) {
-    .section_intro .intro_img {
-        display: none;
-    }
+
 }

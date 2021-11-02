@@ -79,6 +79,7 @@ body {
 .section_intro .container {
     position: relative;
 }
+
 .section_intro .intro_img {
     position: absolute;
     max-height: 544px;
@@ -376,7 +377,7 @@ border: 1px solid #E3EDF1;
     height:0;
 }
 .section_contact .section_contact_full .contact_text {
-    padding: 48px 52px 45px 46px;
+    padding: 48px 52px 48px 46px;
     background: url("../img/worth/iintersect-contact.png")no-repeat center/cover;
 }
 .section_contact .section_contact_full .contact_text .contact_text_mini {
@@ -458,11 +459,11 @@ border: 1px solid #E3EDF1;
     line-height: 19px;
     margin-bottom: 20px;
 }
-.footer .wrapper_footer p {
+.footer .wrapper_footer .footer_info_title p {
     color: #545365;
     font-weight: 500;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 19px;
 }
 /*<!--section footer footer-->*/
 
