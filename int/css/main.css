@@ -84,9 +84,8 @@ body {
     position: absolute;
     max-height: 544px;
     width: auto;
-    right: -3px;
+    right: 0;
 }
-
 .section_intro .intro_left {
     padding-top: 90px;
     padding-bottom: 120px;
@@ -97,7 +96,6 @@ body {
     line-height: 20px;
     margin-bottom: 40px;
     max-width: 440px;
-;
 }
 .title_intro {
     font-weight: 800;
@@ -470,3 +468,4 @@ border: 1px solid #E3EDF1;
 .callback {
     display: flex;
 }
+

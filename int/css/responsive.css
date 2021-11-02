@@ -186,7 +186,7 @@
     }
     .section_item .item_second {
         min-height: 320px;
-        padding: 20px 0 0 0;
+        padding: 10px 0 0 0;
     }
     .section_item .item_body {
         padding: 10px 0 0;
@@ -206,6 +206,42 @@
         margin: 0 auto;
         text-align: center;
         padding: 40px 0 0 0;
+    }
+    .section_item .margin_0 {
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .section_mini_sale .margin_0 {
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+    .section_client .margin_0 {
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+    .section_delivery .margin_0 {
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+    .worth .margin_0 {
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+    .section_contact .margin_0 {
+        margin-left: 0!important;
+        margin-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important
     }
     .section_mini_sale .mini_sale_left {
         padding: 20px 40px 0 40px;
@@ -326,7 +362,7 @@
         margin-right: -50%;
         transform: translate(-50%, 0);
         max-height: 206px;
-        top: 50%;
+        top: 45%;
     }
     .section_intro .intro_left .intro_text {
         margin-bottom: 214px;
@@ -374,7 +410,7 @@
     .worth {
         padding-top: 40px;
     }
-} 
+}
 
 @media (max-width: 350px) {
 
