@@ -18,10 +18,12 @@
     background: #0036b0;
     color: #FFFFFF;
     font-weight: 800;
+    border-color: #0036b0;
 }
 
 .btn-warning {
     background: #F6A219;
     color: #FFFFFF;
     font-weight: 700;
+    border-color: #F6A219;
 }
