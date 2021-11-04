@@ -218,7 +218,7 @@
         min-height: 320px;
     }
     .worth .worth_item {
-        min-height: 270px;
+        min-height: 200px;
     }
     .section_item .item_body {
         padding: 10px 0 0;
@@ -230,40 +230,32 @@
         margin-top: 0;
         padding: 0;
     }
-
     .title_intro {
         font-size: 27px;
     }
-
     .section_item .item_second {
         padding-bottom: 10px;
     }
-
     .title_client {
         text-align: center;
         padding: 0 40px 40px 40px;
         max-width: 767px;
         margin: 0;
     }
-
     .title_client b {
         display: block;
     }
-
     .section_client .client_item img {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-
     .section_intro {
         padding-top: 0;
     }
-
     .logo {
         margin-bottom: 20px;
     }
-
     .wrapper-swiper-cert {
         margin-bottom: 80px;
     }
@@ -271,7 +263,6 @@
         padding: 20px;
         margin: 0;
     }
-
     .section_feedback .title_feedback {
         text-align: center;
     }
@@ -300,6 +291,50 @@
     }
     .worth .top .worth_item {
         margin-bottom: 12px;
+    }
+    .worth .worth_item .worth_item_icon {
+        height: 140px;
+    }
+    .worth .worth_item p {
+        padding: 0 32px 8px 32px;
+    }
+    .worth .worth_start {
+        padding: 20px;
+        min-height: 300px;
+        font-size: 15px;
+    }
+    .worth .worth_start .icon {
+        margin-bottom: 20px;
+    }
+    .section_contact .section_contact_title {
+        padding: 50px 20px 30px 20px;
+        font-size: 28px;
+    }
+    .worth .worth_start .title_worth {
+        font-size: 22px;
+    }
+    .section_contact .section_contact_full .contact_text {
+        padding: 20px;
+        text-align: center;
+    }
+    .section_contact .section_contact_full .contact_text .contact_wrapper_mini {
+        max-width: 600px;
+    }
+    .section_contact .contact_wrapper {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .section_contact .section_contact_full .contact_text {
+        margin-bottom: 0;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .wrapper_footer {
+        text-align: center;
+    }
+    .footer {
+        padding-top: 270px;
     }
 }
 @media (max-width: 576px) {
@@ -443,9 +478,6 @@
     .section_intro .intro_flex {
         justify-content: center;
     }
-    .worth {
-        padding-top: 40px;
-    }
     .footer .footer_logo .logo_footer {
         margin-bottom: 20px;
     }
@@ -468,15 +500,14 @@
         margin-bottom: 20px;
     }
     .worth .worth_start .title_worth {
-        font-size: 26px;
+        font-size: 22px;
+        margin-bottom: 12px;
     }
     .worth .worth_start p {
-        margin-bottom: 20px;
+        margin-bottom: 12px;
+        margin-left: 0;
+        font-size: 14px;
     }
-    .worth {
-        padding-top: 0;
-    }
-}
 @media (max-width: 395px) {
     .section_intro .intro_img {
         top: 49%;
@@ -497,9 +528,6 @@
     .section_intro .intro_img {
         top: 49%;
         height: auto;
-    }
-    .worth {
-        padding-top: 80px;
     }
     .section_delivery .delivery .icon-dostupnie-ceni {
         right: 2px;
