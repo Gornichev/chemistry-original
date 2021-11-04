@@ -60,7 +60,7 @@
     <section class="section_intro">
         <div class="container-sm container">
             <div class="row align-items-end intro_flex">
-                <div class="col-lg-8 col-md-7">
+                <div class="col-lg-8 col-sm-6">
                     <div class="intro_left">
                         <h1 class="title_intro">Изготавливаем и поставляем СИЗ широкого назначения и любых видов</h1>
                         <p class="intro_text">Для производств, промышленности, медицинских, образовательных, государственных или иных учреждений, также для бытовых нужд. В том числе СИЗ от COVID-19</p>
@@ -517,8 +517,10 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-button swiper-button-next"></div>
-            <div class="swiper-button swiper-button-prev"></div>
+            <div class="swiper-control">
+                <div class="swiper-button swiper-button-next"></div>
+                <div class="swiper-button swiper-button-prev"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -642,13 +644,13 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="row row-padding-0">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="modal_title_background">
                         <h5 class="modal-title_offer">Получить коммерческое предложение</h5>
                         <p>Оставьте свои контакты и мы перезвоним вам</p>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8">
                     <div class="modal_title_form">
                         <div class="modal_header_form">
                             <form action="#" method="post">
@@ -657,11 +659,11 @@
                                 <button type="button" class="btn-close icon-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 <div class="modal_form_group">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-sm-6">
                                             <label for="exampleFormControlInput4" class="form-label modal_name">Телефон</label>
                                             <input type="tel" class="form-control" id="exampleFormControlInput4" placeholder="+7 987 979-98-89">
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-sm-6">
                                             <label for="exampleInputEmail1" class="form-label modal_name">Эл.почта</label>
                                             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="semen@gnail.com" aria-describedby="emailHelp">
                                         </div>
@@ -672,8 +674,12 @@
                                         <label class="form-label" for="floatingTextarea2">Сообщение или ваш вопрос</label>
                                         <textarea class="form-control" placeholder="Можно ли у вас купить защитные костюмы для пожарных?" id="floatingTextarea2" style="height: 100px"></textarea>
                                     </div>
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Даю согласие на обработку песональных данных</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Даю согласие на обработку песональных данных
+                                        </label>
+                                    </div>
                                     <button type="button" class="btn btn-lg btn-warning">Получить коммерческое предложение</button>
                                 </div>
                             </form>

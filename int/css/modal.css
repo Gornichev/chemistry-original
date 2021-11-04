@@ -77,7 +77,6 @@
 }
 .modal .modal_title_form {
     padding: 48px 40px 48px 40px;
-    position: relative;
 }
 .modal .form-label {
     font-size: 14px;
@@ -113,7 +112,7 @@
 .modal .modal_title_form .modal_textarea {
     margin-bottom: 24px;
 }
-.modal .modal_title_form .form-check-input {
+.modal .modal_title_form .form-check {
     margin-bottom: 24px;
 }
 .modal .modal_title_form .modal_textarea .form-check-label {
