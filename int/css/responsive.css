@@ -351,13 +351,14 @@
         transform: translate(-50%, 0);
         max-height: 225px;
         top: 40%;
+        display: none;
     }
     .section_intro .intro_left .intro_text {
-        margin: 0 auto 248px;
+        margin: 0 auto 20px;
     }
     .header_right {
         flex-direction: column;
-        padding-right: 50px;
+        padding-right: 40px;
         position: relative;
         padding-top: 0;
     }
@@ -380,7 +381,8 @@
         margin-bottom: 20px;
     }
     .title_intro {
-        line-height: 36px;
+        line-height: 40px;
+        font-size: 25px;
     }
     .feedback_logo {
         margin: 0 auto;
@@ -401,6 +403,9 @@
     .footer .footer_logo .logo_footer {
         margin-bottom: 20px;
     }
+    .btn-lg {
+        padding: 10px 3px;
+    }
 }
 @media (max-width: 540px) {
     .section_feedback .swiper-button-next {
@@ -420,9 +425,6 @@
     .section_intro .intro_img {
         top: 45%;
         height: auto;
-    }
-    .section_intro .intro_left .intro_text {
-        margin: 0 auto 234px;
     }
     .worth .worth_start .icon {
         margin-bottom: 20px;
@@ -456,8 +458,9 @@
         top: 49%;
         height: auto;
     }
-    .section_intro .intro_left .intro_text {
-        margin: 0 auto 240px;
+    .header_right {
+        padding-right: 0;
+        padding-top: 40px;
     }
 }
 @media (max-width: 330px) {
@@ -467,14 +470,15 @@
     .section_feedback .swiper-button-prev {
         top: 900px;
     }
+    .header_right {
+        padding-right: 31px;
+        padding-top: 0;
+    }
 }
 @media (max-width: 376px) {
     .section_intro .intro_img {
         top: 49%;
         height: auto;
-    }
-    .section_intro .intro_left .intro_text {
-        margin: 0 auto 240px;
     }
     .section_feedback .swiper-button-next {
         top: 850px;
@@ -500,12 +504,6 @@
         padding-right: 0;
         position: relative;
         padding-top: 40px;
-    }
-    .section_intro .intro_left .intro_text {
-        margin: 0 auto 238px;
-    }
-    .section_intro .intro_left .intro_text {
-        margin: 0 auto 240px;
     }
     .section_feedback .swiper-button-next {
         top: 900px;
